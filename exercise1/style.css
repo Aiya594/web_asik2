@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, serif;
+    background-color: rgb(217, 237, 239);
+}
+
+div {
+    background: azure;
+    width: 1000px;
+    margin: 0 auto; /*means that browser will count the отступы*/
+    padding: 20px; /*space between content and border of the block*/
+    border-radius:15px;
+}
+
+.list{
+    background-color: rgb(217, 237, 239);
+    width: 400px;
+}
+
+#titleandfooter{
+    width: auto;
+}
+
+
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-2 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    border-radius:15px;
+}
+
+a{
+    color:rgb(186, 0, 31)
+}
+
+button{
+    border-radius:5px;
+    width:150px;
+    height: 25px;
+    background-color:rgb(127, 193, 255);
+}
+
+footer{
+    background: azure;
+    text-align: center;
+}
+
+
