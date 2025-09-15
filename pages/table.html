@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="table.css">
+    <title>Table of Students Grades</title>
+</head>
+
+<body>
+    <div id="gradesTitle">
+        <h1>Table of Students Grades</h1>
+    </div><br>
+
+    <table>
+        <tr class="tableHeadings">
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Aiya</td>
+            <td>Web Technologies1(Frontend)</td>
+            <td>100%</td>
+        </tr>
+        <tr>
+            <td>Anastassiya</td>
+            <td>Graph Theory</td>
+            <td>100%</td>
+        </tr>
+        <tr>
+            <td>Gaziza</td>
+            <td>Design and Analysis of Algorithms</td>
+            <td>100%</td>
+        </tr>
+        <tr>
+            <td>Aizada</td>
+            <td>Kazakh Lang1</td>
+            <td>100%</td>
+        </tr>
+        <tr>
+            <td>Assel</td>
+            <td>Introduction to Finance</td>
+            <td>100%</td>
+        </tr>
+        <tr class="unlucky">
+            <td>Unlucky students name</td>
+            <td>Web Technologies1(Frontend)</td>
+            <td>20%(Retake)</td>
+        </tr>
+
+    </table> <br>
+
+    <h2>Fill the form:</h2>
+    <form>
+        <table>
+            <tr>
+                <td class="question"><label for="name">Your name:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+
+            <tr>
+                <td class="question"><label for="email">Your email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td class="question"><label for="role">Your role:</label></td>
+                <td>
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="question">Do you agree with your grade?</td>
+                <td>
+                    <input type="radio" id="yes" name="agreement" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="agreement" value="no">
+                    <label for="no">No</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="question"><label for="comment">Write feedback:</label></td>
+                <td><textarea id="comment" name="comments"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+
+    </form><br>
+
+
+    <div class="lowerbar">
+        <footer> 2025 Table of Student Grades | Created by Aiya Zhakupova. </footer>
+
+    </div>
+
+
+
+
+</body>
+
+
+</html>
