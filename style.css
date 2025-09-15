@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, serif;
+    background-color: rgb(255, 255, 255);
+}
+
+div {
+    display: flex;/*helps to center text*/
+    background-color: rgb(246, 194, 250);
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0 auto;
+
+}
+
+a{
+    color:rgb(186, 0, 31)
+}
+
+
+.exo-2 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.heading {
+    height: 150px;
+}
+
+.divTable {
+    border-radius: 0px;
+}
+
+.divTh {
+    margin-right: 5px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.divButtons {
+    height: 80px;
+}
+
+.divFooter{
+    margin-top: 20px;
+    height:70px;
+}
+
+table {
+    border-radius: 8px;
+    border: 5px solid rgb(254, 254, 254);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 5px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 250%
+}
+
+button {
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgb(229, 132, 236);
+    margin-right: 10px;
+    /*adds space after button*/
+}
